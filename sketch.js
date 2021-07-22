@@ -9,7 +9,7 @@ var backgroundImg;
 
 var slingshot
 var gameState="onSling"
-var bg="sprites/bg.png"
+var bg="bg.png"
 var score=0
 var birds=[];
 function preload(){
@@ -135,10 +135,10 @@ function mouseDragged(){
     var hour=datetime.slice(11,13)
 
     if(hour>=06 && hour<=19){
-    bg="sprites/casa.jpg"
+    bg="casa.jpg"
     }
     else{
-      bg="sprites/bg2.jpg"
+      bg="bg2.jpg"
     }
     backgroundImg=loadImage(bg)
     }

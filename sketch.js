@@ -9,6 +9,7 @@ var backgroundImg;
 
 var slingshot
 var gameState="onSling"
+var bg="casa.jpg"
 var score=0
 var birds=[];
 function preload(){
